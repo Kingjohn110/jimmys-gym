@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="gym-web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <span>
+            <img class="logo" src="gym-logo.jpeg" alt="Shape Up Logo">
+        </span>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li><a href="#services"><i class="fa-solid fa-dumbbell"></i> SERVICES</a></li>
+                <li><a href="#membership-plans"><i class="fa-solid fa-user-friends"></i> MEMBERSHIP PLANS</a></li>
+                <li><a href="#news"><i class="fa-solid fa-newspaper"></i> NEWS</a></li>
+                <li><a href="#contact-us"><i class="fa-solid fa-phone"></i> CONTACT US</a></li>
+            </ul>
+            <div class="search-user">
+            <a href="search.html"><i class="fas fa-search"></i></a>
+            <a href="user.html"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Pain is temporary,<br>
+                    <span>Quitting lasts forever.</span>
+                </h1>
+                <div class="hero-buttons">
+                    <a href="membership-plans.html" class="btn btn-primary">Let's begin</a>
+                    <a href="tutorials.html" class="btn btn-secondary">Watch Tutorials</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="amenities">
+            <h2>Amenities for our members</h2>
+            <div class="amenities-grid">
+            <!-- Row 1 -->
+                <div class="amenity-card">
+                    <i class="fa-solid fa-spa"></i>
+                    <h3>Yoga Classes</h3>
+                </div>
+                <div class="amenity-card">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Live Sessions</h3>
+                </div>
+                <div class="amenity-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Therapy</h3>
+                </div>
+                <div class="amenity-card">
+                    <i class="fa-solid fa-apple-alt"></i>
+                    <h3>Diet Plans</h3>
+                </div>
+
+            <!-- Row 2 -->
+                <div class="amenity-card">
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h3>Workout at Gym</h3>
+                </div>
+                <div class="amenity-card">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <h3>Nutrition</h3>
+                </div>
+                <div class="amenity-card">
+                    <i class="fa-solid fa-flask"></i>
+                    <h3>Lab Tests</h3>
+                </div>
+                <div class="amenity-card">
+                    <i class="fa-solid fa-pills"></i>
+                    <h3>Vitamins</h3>
+                </div>
+            </div>
+    
+            <div class="amenities-footer">
+                <a href="services.html" class="btn btn-secondary">Explore more &gt;</a>
+            </div>
+        </section>
+
+        <section id="membership-plans" class="membership-plans">
+            <h2>Explore our membership plans</h2>
+            
+            <div class="plans-grid">
+                <!-- Pro Plan -->
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Pro</h3>
+                        <p class="plan-desc">The best plan for starters...</p>
+                    </div>
+                    <div class="plan-pricing">
+                        <span class="price">₦25,524.22</span>
+                        <span class="duration">1 Month plan</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited access</li>
+                        <li><i class="fa-solid fa-check"></i> Single visit</li>
+                        <li><i class="fa-solid fa-check"></i> Group classes</li>
+                    </ul>
+                    <div class="plan-action">
+                        <a href="#" class="btn btn-primary">Buy now</a>
+                        <span class="free-trial">7-day free trial</span>
+                    </div>
+                </div>
+
+                <!-- Elite Plan (Popular) -->
+                <div class="plan-card popular">
+                    <div class="badge">POPULAR</div>
+                    <div class="plan-header">
+                        <h3>ELITE</h3>
+                        <p class="plan-desc">Also includes...</p>
+                    </div>
+                    <div class="plan-pricing">
+                        <span class="price">₦161,205.60</span>
+                        <span class="duration">1 Month plan</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited access</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited visits</li>
+                        <li><i class="fa-solid fa-check"></i> Group classes</li>
+                        <li><i class="fa-solid fa-check"></i> At home live workout</li>
+                    </ul>
+                    <div class="plan-action">
+                        <a href="#" class="btn btn-inverted">Buy now</a>
+                        <span class="free-trial">7-day free trial</span>
+                    </div>
+                </div>
+
+                <!-- Diamond Plan (Exclusive) -->
+                <div class="plan-card">
+                    <div class="badge exclusive">EXCLUSIVE</div>
+                    <div class="plan-header">
+                        <h3>Diamond</h3>
+                        <p class="plan-desc">The most exclusive...</p>
+                    </div>
+                    <div class="plan-pricing">
+                        <span class="price">₦308,977.40</span>
+                        <span class="duration">1 Month plan</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited visits</li>
+                        <li><i class="fa-solid fa-check"></i> Group classes</li>
+                        <li><i class="fa-solid fa-check"></i> At home live sessions</li>
+                        <li><i class="fa-solid fa-check"></i> Virtual personal training</li>
+                    </ul>
+                    <div class="plan-action">
+                        <a href="#" class="btn btn-primary">Buy now</a>
+                        <span class="free-trial">7-day free trial</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Dots Indicator -->
+            <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+            </div>
+
+            <!-- Footer Action -->
+            <div class="plans-footer">
+                <a href="membership-plans.html" class="btn btn-secondary">See more plans &gt;</a>
+            </div>
+        </section>
+
+        <section id="trainers" class="trainers-section">
+            <h2>Our trainers</h2>
+            
+            <div class="trainers-grid">
+                <!-- Trainer 1 -->
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="trainer-ronald.jpg" alt="Ronald Sherman">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>OSAKPOLOR</h3>
+                        <span class="trainer-role">Senior Fitness Coach</span>
+                    </div>
+                </div>
+
+                <!-- Trainer 2 -->
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="trainer-lana.jpg" alt="Lana Fletcher">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>HOEDOGWU</h3>
+                        <span class="trainer-role">Yoga & Mobility Specialist</span>
+                    </div>
+                </div>
+
+                <!-- Trainer 3 -->
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="trainer-cathryn johns.jpg" alt="Cathryn Johns">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>BNXN</h3>
+                        <span class="trainer-role">HIIT & Conditioning</span>
+                    </div>
+                </div>
+
+                <!-- Trainer 4 -->
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="trainer-osvaldo nunez.jpg" alt="Osvaldo Nunez">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>WANDE COCO</h3>
+                        <span class="trainer-role">Strength & Powerlifting</span>
+                    </div>
+                </div>
+
+                <!-- Trainer 5 -->
+                <div class="trainer-card">
+                    <div class="trainer-img">
+                        <img src="trainer-amy ryan (2).jpg" alt="Amy Ryan">
+                    </div>
+                    <div class="trainer-info">
+                        <h3>GBACHALA</h3>
+                        <span class="trainer-role">CrossFit & Endurance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news-section">
+            <h2>News</h2>
+            
+            <div class="news-list">
+                <!-- Article 1 -->
+                <article class="news-card">
+                    <div class="news-img">
+                        <img src="news-powerlifting.jpg" alt="Powerlifting">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-header-row">
+                            <span class="news-category">Powerlifting</span>
+                            <button class="news-menu-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        </div>
+                        <h3>Maazi okpanka</h3>
+                        <p>Mastering compound lifts requires progressive overload, precise form, and central nervous system recovery. Learn how small tweaks to your squat stance can unlock new personal records safely.</p>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="news-card">
+                    <div class="news-img">
+                        <img src="news-breathing.webp" alt="Stress reduction and breath control">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-header-row">
+                            <span class="news-category">Stress reduction and breath control</span>
+                            <button class="news-menu-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        </div>
+                        <h3>Silvanus lienus</h3>
+                        <p>High-intensity training spikes cortisol, making breathwork essential. Discover box-breathing techniques that lower heart rates, accelerate intra-workout recovery, and sharpen mental focus.</p>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="news-card">
+                    <div class="news-img">
+                        <img src="news-stretch.jpg" alt="Boosted flexibility and mobility">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-header-row">
+                            <span class="news-category">Boosted flexibility and mobility</span>
+                            <button class="news-menu-btn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                        </div>
+                        <h3>Sistus Paulinus</h3>
+                        <p>Tight hips and restricted shoulders limit athletic potential. Incorporate these dynamic daily stretching routines to improve joint range of motion, correct posture, and prevent injuries.</p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Dropdown / Expand More Indicator -->
+            <div class="news-expand">
+                <button class="expand-btn"><i class="fa-solid fa-chevron-down"></i></button>
+            </div>
+        </section>
+
+        <section id="contact-us" class="contact-section">
+            <h2>Contact us</h2>
+            
+            <!-- Contact Info Cards -->
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>808-733-8996</p>
+                    <p>702-609-8070</p>
+                </div>
+                <div class="contact-info-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>kingjohnphilip@gmail.com</p>
+                </div>
+                <div class="contact-info-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>1398 ogbafia go carry u loss,<br>mami water go bring you back</p>
+                </div>
+            </div>
+
+            <p class="contact-prompt">If you got any questions please send us a message</p>
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-action">
+                    <button type="submit" class="btn btn-primary">Send Feedback</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Brand Info -->
+            <div class="footer-col footer-brand">
+                <div class="footer-logo">
+                    <img src="gym-logo.jpeg" alt="JIM Logo">
+                    <span>JIM</span>
+                </div>
+                <p>Push your boundaries and transform your lifestyle with high-intensity training, recovery, and dedicated coaching.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/18tx4LAwFo/" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/_kj_on_insta?dlrf=MTh1b2F2cHNwYTZvcA==" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/KingjohnASIM" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://wa.me/2348087338996" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="membership-plans.html">Membership Plans</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Programs & Services -->
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="#">Strength Training</a></li>
+                    <li><a href="#">Yoga & Mobility</a></li>
+                    <li><a href="#">HIIT Workouts</a></li>
+                    <li><a href="#">Personal Coaching</a></li>
+                    <li><a href="#">Diet & Nutrition</a></li>
+                </ul>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="footer-col">
+                <h4>Working Hours</h4>
+                <ul class="hours-list">
+                    <li><span>Mon - Fri:</span> 6:00 AM - 10:00 PM</li>
+                    <li><span>Saturday:</span> 7:00 AM - 8:00 PM</li>
+                    <li><span>Sunday:</span> 8:00 AM - 6:00 PM</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 JIM Gym. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
